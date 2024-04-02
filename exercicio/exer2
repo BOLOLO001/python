@@ -1,1 +1,5 @@
+const numero = parseInt(prompt("Digite um número menor que 100: "));
 
+const digito1 = Math.floor(numero / 10); const digito2 = numero % 10;
+
+console.log("A soma dos dígitos é:", digito1 + digito2);
